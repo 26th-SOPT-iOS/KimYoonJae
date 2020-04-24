@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC95C6EA2452BFCF00E0968B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95C6E92452BFCF00E0968B /* AppDelegate.swift */; };
+		EC95C6EC2452BFCF00E0968B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95C6EB2452BFCF00E0968B /* SceneDelegate.swift */; };
+		EC95C6EE2452BFCF00E0968B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95C6ED2452BFCF00E0968B /* ViewController.swift */; };
+		EC95C6F12452BFCF00E0968B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC95C6EF2452BFCF00E0968B /* Main.storyboard */; };
+		EC95C6F32452BFD100E0968B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC95C6F22452BFD100E0968B /* Assets.xcassets */; };
+		EC95C6F62452BFD100E0968B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC95C6F42452BFD100E0968B /* LaunchScreen.storyboard */; };
+		EC95C6FE2452C75E00E0968B /* KakaoTalk_Photo_2020-04-24-10-52-56.png in Resources */ = {isa = PBXBuildFile; fileRef = EC95C6FD2452C75E00E0968B /* KakaoTalk_Photo_2020-04-24-10-52-56.png */; };
+		EC95C7002452CA7F00E0968B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95C6FF2452CA7F00E0968B /* FirstViewController.swift */; };
+		EC95C7022452CB4400E0968B /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95C7012452CB4400E0968B /* LogoutViewController.swift */; };
+		EC95C7042452CE6400E0968B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95C7032452CE6400E0968B /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC95C6E62452BFCF00E0968B /* SOPT_WEEK1_HW2_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPT_WEEK1_HW2_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC95C6E92452BFCF00E0968B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC95C6EB2452BFCF00E0968B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC95C6ED2452BFCF00E0968B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC95C6F02452BFCF00E0968B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC95C6F22452BFD100E0968B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC95C6F52452BFD100E0968B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC95C6F72452BFD100E0968B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC95C6FD2452C75E00E0968B /* KakaoTalk_Photo_2020-04-24-10-52-56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2020-04-24-10-52-56.png"; sourceTree = "<group>"; };
+		EC95C6FF2452CA7F00E0968B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EC95C7012452CB4400E0968B /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		EC95C7032452CE6400E0968B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC95C6E32452BFCF00E0968B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC95C6DD2452BFCF00E0968B = {
+			isa = PBXGroup;
+			children = (
+				EC95C6E82452BFCF00E0968B /* SOPT_WEEK1_HW2_3 */,
+				EC95C6E72452BFCF00E0968B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC95C6E72452BFCF00E0968B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC95C6E62452BFCF00E0968B /* SOPT_WEEK1_HW2_3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC95C6E82452BFCF00E0968B /* SOPT_WEEK1_HW2_3 */ = {
+			isa = PBXGroup;
+			children = (
+				EC95C6E92452BFCF00E0968B /* AppDelegate.swift */,
+				EC95C6EB2452BFCF00E0968B /* SceneDelegate.swift */,
+				EC95C6ED2452BFCF00E0968B /* ViewController.swift */,
+				EC95C6EF2452BFCF00E0968B /* Main.storyboard */,
+				EC95C6F22452BFD100E0968B /* Assets.xcassets */,
+				EC95C6FD2452C75E00E0968B /* KakaoTalk_Photo_2020-04-24-10-52-56.png */,
+				EC95C6F42452BFD100E0968B /* LaunchScreen.storyboard */,
+				EC95C6F72452BFD100E0968B /* Info.plist */,
+				EC95C6FF2452CA7F00E0968B /* FirstViewController.swift */,
+				EC95C7012452CB4400E0968B /* LogoutViewController.swift */,
+				EC95C7032452CE6400E0968B /* SignUpViewController.swift */,
+			);
+			path = SOPT_WEEK1_HW2_3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC95C6E52452BFCF00E0968B /* SOPT_WEEK1_HW2_3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC95C6FA2452BFD100E0968B /* Build configuration list for PBXNativeTarget "SOPT_WEEK1_HW2_3" */;
+			buildPhases = (
+				EC95C6E22452BFCF00E0968B /* Sources */,
+				EC95C6E32452BFCF00E0968B /* Frameworks */,
+				EC95C6E42452BFCF00E0968B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOPT_WEEK1_HW2_3;
+			productName = SOPT_WEEK1_HW2_3;
+			productReference = EC95C6E62452BFCF00E0968B /* SOPT_WEEK1_HW2_3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC95C6DE2452BFCF00E0968B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Yunjae Kim";
+				TargetAttributes = {
+					EC95C6E52452BFCF00E0968B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EC95C6E12452BFCF00E0968B /* Build configuration list for PBXProject "SOPT_WEEK1_HW2_3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC95C6DD2452BFCF00E0968B;
+			productRefGroup = EC95C6E72452BFCF00E0968B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC95C6E52452BFCF00E0968B /* SOPT_WEEK1_HW2_3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC95C6E42452BFCF00E0968B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC95C6F62452BFD100E0968B /* LaunchScreen.storyboard in Resources */,
+				EC95C6F32452BFD100E0968B /* Assets.xcassets in Resources */,
+				EC95C6F12452BFCF00E0968B /* Main.storyboard in Resources */,
+				EC95C6FE2452C75E00E0968B /* KakaoTalk_Photo_2020-04-24-10-52-56.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC95C6E22452BFCF00E0968B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC95C7042452CE6400E0968B /* SignUpViewController.swift in Sources */,
+				EC95C6EE2452BFCF00E0968B /* ViewController.swift in Sources */,
+				EC95C6EA2452BFCF00E0968B /* AppDelegate.swift in Sources */,
+				EC95C6EC2452BFCF00E0968B /* SceneDelegate.swift in Sources */,
+				EC95C7022452CB4400E0968B /* LogoutViewController.swift in Sources */,
+				EC95C7002452CA7F00E0968B /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC95C6EF2452BFCF00E0968B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC95C6F02452BFCF00E0968B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC95C6F42452BFD100E0968B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC95C6F52452BFD100E0968B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC95C6F82452BFD100E0968B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC95C6F92452BFD100E0968B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC95C6FB2452BFD100E0968B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SOPT_WEEK1_HW2_3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YunaeKim.SOPT-WEEK1-HW2-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC95C6FC2452BFD100E0968B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SOPT_WEEK1_HW2_3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YunaeKim.SOPT-WEEK1-HW2-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC95C6E12452BFCF00E0968B /* Build configuration list for PBXProject "SOPT_WEEK1_HW2_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC95C6F82452BFD100E0968B /* Debug */,
+				EC95C6F92452BFD100E0968B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC95C6FA2452BFD100E0968B /* Build configuration list for PBXNativeTarget "SOPT_WEEK1_HW2_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC95C6FB2452BFD100E0968B /* Debug */,
+				EC95C6FC2452BFD100E0968B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC95C6DE2452BFCF00E0968B /* Project object */;
+}
