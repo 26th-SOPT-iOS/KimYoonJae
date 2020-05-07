@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "scale" : "1x",
+      "idiom" : "universal",
+      "filename" : "soptLogo.jpg"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "soptLogo@2x.jpg",
+      "scale" : "2x"
+    },
+    {
+      "scale" : "3x",
+      "filename" : "soptLogo@3x.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
