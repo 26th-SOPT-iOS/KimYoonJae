@@ -1,0 +1,13 @@
+zsh:1: command not found: q
+# platform :ios, '9.0'
+
+target 'SOPT_WEEK2_HW2' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+
+  # Pods for SOPT_WEEK2_HW2
+  pod 'Alamofire', '~> 4.8.2'
+  pod 'Kingfisher','~> 5.0'
+
+end
