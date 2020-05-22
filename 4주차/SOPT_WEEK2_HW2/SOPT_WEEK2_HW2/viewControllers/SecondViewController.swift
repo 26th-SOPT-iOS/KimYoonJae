@@ -74,18 +74,24 @@ class SecondViewController: UIViewController {
             switch networkResult{
             case .success(_) :
                 print("success")
-//                guard let receiveViewController = self.storyboard?.instantiateViewController(identifier: "FirstViewController") as? FirstViewController else {return}
-//                receiveViewController.modalPresentationStyle = .fullScreen
-//                self.present(receiveViewController,animated: true,completion: nil)
-//
-//                receiveViewController.idTextField.text = inputId
-//                receiveViewController.pwTextField.text = inputPw
-                
-                
-                guard let tabbarController = self.storyboard?.instantiateViewController(identifier:
-                "tabBarController") as? UITabBarController else { return }
+                guard let receiveViewController = self.storyboard?.instantiateViewController(identifier: "FirstViewController") as? FirstViewController else {return}
+                receiveViewController.modalPresentationStyle = .fullScreen
 
-               self.present(tabbarController, animated: true, completion: nil)
+
+                self.present(receiveViewController,animated: true,completion: nil)
+                
+                receiveViewController.idTextField.text = inputId
+                receiveViewController.pwTextField.text = inputPw
+                
+                receiveViewController.AutoLogin()
+
+               
+                
+                
+//                guard let tabbarController = self.storyboard?.instantiateViewController(identifier:
+//                "tabBarController") as? UITabBarController else { return }
+//
+//               self.present(tabbarController, animated: true, completion: nil)
             case .requestErr(let message):
                 print("request")
                 guard let message = message as? String else {return}
